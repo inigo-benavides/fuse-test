@@ -1,2 +1,2 @@
 # fuse-test
-Test repository
+Test repository. Adding new content.
