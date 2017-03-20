@@ -1,2 +1,5 @@
 # No .DStore files
 *.DS_Store
+
+# No .pyc files
+*.pyc

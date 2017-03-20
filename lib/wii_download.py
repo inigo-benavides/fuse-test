@@ -15,7 +15,7 @@ import boto3
 today = datetime.datetime.today()
 month, day, year = today.strftime('%m'), today.strftime('%d'), today.strftime('%y')
 env_date = today.strftime('%m_%d_%y')
-base_path = '/Users/miguelbenavides/Desktop/mynt/data/main/wii_data_dumps/{0}/'.format(env_date)
+base_path = '../data/main/wii_data_dumps/{0}/'.format(env_date)
 
 # Create path if not exists
 if not os.path.exists(base_path):
